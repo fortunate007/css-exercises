@@ -11,9 +11,17 @@
 button {
   border-radius: 8px;
   border: none;
-  background-color: #2563eb;
+  background-color: #1f5de2;
   color: white;
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+}
+  /* Add transition */
+  transition: transform 0.3s ease-in-out;
+
+
+.btn:hover {
+  /* Scale the button on hover */
+  transform: scale(1.2);
 }
